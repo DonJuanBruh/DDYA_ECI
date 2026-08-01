@@ -12,6 +12,7 @@ def pos_neg_zero(id):
 def __main__():
     print ("\t\t-- REGISTRO POR ESTUDIANTE --")
     while True:
-        
-
-__main__()
+        def ask_IDcode():
+            id = int(input("\t Ingrese su ID estudiantil:"))
+            return id
+    __main__()
