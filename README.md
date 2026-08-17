@@ -26,8 +26,10 @@ Repositorio académico dedicado a la materia de **Diseño de Datos y Algoritmos 
 ---
 
 ### 📁 [SEMANA_03](./SEMANA_03) — *Dividir y conquistar | Teorema Maestro*
-
-
+* **Descripción:** Organización y búsqueda de códigos utilizando _Merge Sort_ y _Binary Search_ para organizar códigos y realizar la búsqueda de estos.
+* **Puntos y actividades clave:**
+  * Implementación de _Merge Sort_ y _Binary Search_ a un algoritmo
+  * [`search_mergesort.py`](./SEMANA_03/search_mergesort.py): Resolución del ejercicio "Organización y búsqueda de productos en una tienda". Ingresar datos, cantidad de productos representada por "count", el código de cada uno de los productos, mostrar en pantalla los códigos organizados de menor a mayor y la búsqueda del "target_code" entre la lista de códigos. Con la función _Merge Sort_ se divide la lista de códigos en dos sucesivamente para tener "parejas" de los elementos y luego fusionarlos de forma organizada. Con la función _Binary Searh / Búsqueda Binaria_ se divide de a dos partes sucesivamente hasta encontrar el elemento en alguna de las dos.
 ---
 
 ### 📁 [SEMANA_04](./SEMANA_04) — *Programación dinámica*
