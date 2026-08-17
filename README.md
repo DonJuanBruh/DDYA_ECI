@@ -22,7 +22,7 @@ Repositorio académico dedicado a la materia de **Diseño de Datos y Algoritmos 
 * **Descripción:** Organización de proyecto utilizando _Insertion Sort_ para organizar precios y práctica de PR (pull request).
 * **Puntos y actividades clave:**
   * Implementación de _Insertion Sort_ a un algoritmo
-  * [`prueba_tecnica.py`](./SEMANA_02/prueba_tecnica.py): Resolución del ejercicio "Organización de precios en una tienda". Ingresar datos, cantidad de productos representada por n, el precio de cada uno de los productos y el tipo de ordenamiento que se desea mostrar. Con la función _Insertion Sort_ se organizan los precios en forma ascendente o descendente.
+  * [`InsertionSort.py`](./SEMANA_02/InsertionSort.py): Resolución del ejercicio "Organización de precios en una tienda". Ingresar datos, cantidad de productos representada por n, el precio de cada uno de los productos y el tipo de ordenamiento que se desea mostrar. Con la función _Insertion Sort_ se organizan los precios en forma ascendente o descendente.
 ---
 
 ### 📁 [SEMANA_03](./SEMANA_03) — *Dividir y conquistar | Teorema Maestro*
