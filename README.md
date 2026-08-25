@@ -21,19 +21,22 @@ Repositorio académico dedicado a la materia de **Diseño de Datos y Algoritmos 
 ### 📁 [SEMANA_02](./SEMANA_02) — *Estrategia incremental | Análisis asintótico*
 * **Descripción:** Organización de proyecto utilizando _Insertion Sort_ para organizar precios y práctica de PR (pull request).
 * **Puntos y actividades clave:**
-  * Implementación de _Insertion Sort_ a un algoritmo
+  * Implementación de _Insertion Sort_ a un algoritmo.
   * [`InsertionSort.ipynb`](./SEMANA_02/InsertionSort.ipynb): Resolución del ejercicio "Organización de precios en una tienda". Ingresar datos, cantidad de productos representada por n, el precio de cada uno de los productos y el tipo de ordenamiento que se desea mostrar. Con la función _Insertion Sort_ se organizan los precios en forma ascendente o descendente.
 ---
 
 ### 📁 [SEMANA_03](./SEMANA_03) — *Dividir y conquistar | Teorema Maestro*
 * **Descripción:** Organización y búsqueda de códigos utilizando _Merge Sort_ y _Binary Search_ para organizar códigos y realizar la búsqueda de estos.
 * **Puntos y actividades clave:**
-  * Implementación de _Merge Sort_ y _Binary Search_ a un algoritmo
-  * [`search_mergesort.py`](./SEMANA_03/search_mergesort.py): Resolución del ejercicio "Organización y búsqueda de productos en una tienda". Ingresar datos, cantidad de productos representada por "count", el código de cada uno de los productos, mostrar en pantalla los códigos organizados de menor a mayor y la búsqueda del "target_code" entre la lista de códigos. Con la función _Merge Sort_ se divide la lista de códigos en dos sucesivamente para tener "parejas" de los elementos y luego fusionarlos de forma organizada. Con la función _Binary Searh / Búsqueda Binaria_ se divide de a dos partes sucesivamente hasta encontrar el elemento en alguna de las dos.
+  * Implementación de _Merge Sort_ y _Binary Search_ a un algoritmo.
+  * [`Laboratorio_Semana_3_.ipynb`](./SEMANA_03/search_mergesort.py): Resolución del ejercicio "Organización y búsqueda de productos en una tienda". Ingresar datos, cantidad de productos representada por "count", el código de cada uno de los productos, mostrar en pantalla los códigos organizados de menor a mayor y la búsqueda del "target_code" entre la lista de códigos. Con la función _Merge Sort_ se divide la lista de códigos en dos sucesivamente para tener "parejas" de los elementos y luego fusionarlos de forma organizada. Con la función _Binary Searh / Búsqueda Binaria_ se divide de a dos partes sucesivamente hasta encontrar el elemento en alguna de las dos.
 ---
 
 ### 📁 [SEMANA_04](./SEMANA_04) — *Programación dinámica*
-
+* **Descripción:** Programación dinámica utilizando _Memoización_ con resolución de problemas tipo _Rod cutting problem_.
+* **Puntos y actividades clave:**
+  * Implementación de _Programación dinámica_ a un algoritmo.
+  * [`Laboratory_Dynamic_Porogramming.ipynb`](./SEMANA_04/Laboratory_Dynamic_Porogramming.ipynb): Resolución del ejercicio "Dar cambio con monedas colombianas". Ingresar datos, valor de cambio representado como "change", mostrar en pantalla la cantidad de monedas para dar el cambio y su respectivo orden con los valores de las monedas de "colombian_coins" [50, 100, 200, 500, 1000]. Se valida que el valor a cambiar sea múltiplo de 50 o de lo contrario se redondea para dar el valor más cercano para dar el cambio respectivamente. Con _Programación Dinámica_ se divide en tipo grupos para saber con qué cantidad y de qué tipo de monedas es la mejor forma de dar cambio (con la menor cantidad de monedas de forma eficiente). Se realiza un desglose de la lista de monedas en orden descendente [1000 + 1000+ 500 + 200...].
 
 ---
 
